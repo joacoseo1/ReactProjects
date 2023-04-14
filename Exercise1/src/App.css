@@ -1,0 +1,49 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  box-sizing: inherit;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.gif{
+  width: 450px;
+  height: 450px;
+}
+
+.fact{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.changeGif{
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(to right, #37e8ff 15px, #08b9ff);
+  border: none;
+  font-size: 20px;
+}
+
+.changeGif:hover{
+  background: linear-gradient(to right, #18cee6 15px, #0196d1);
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
