@@ -1,0 +1,47 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: rgb(27, 27, 27);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.gridTable{
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  height: 460px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+}
+
+.btnRestart{
+  width: 230px;
+  height: 90px;
+  font-size: 2.3em;
+  border: 2px solid rgb(131, 131, 131);
+}
+
+.btnRestart:hover,
+.btnRestart:focus {
+  border: 2px solid red;
+  box-shadow: 0 0.5em 0.5em -0.4em red;
+  transform: translateY(-0.25em);
+  transition-duration: 0.3s;
+}
