@@ -1,0 +1,14 @@
+.grid-Cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 35px;
+    align-content: center;
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

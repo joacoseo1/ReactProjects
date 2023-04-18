@@ -1,0 +1,59 @@
+.Card {
+    transition: 0.3s;
+    width: 380px;
+    height: 430px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+.Card:hover img {
+    filter:brightness(1);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 380px;
+    height: 200px;
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    filter:brightness(0.85);
+}
+
+.Card-body {
+    padding: 0px 16px 0px 16px;
+}
+
+.Card-body h1{
+    font-size: 22px;
+    font-family: cursive;
+    margin: 0;
+    text-align: center;
+}
+
+.Card-body h3{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 2px;
+    height: 40px;
+}
+
+.Card-body h3 .status{
+    vertical-align: middle;
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.Alive{
+    color: rgb(4, 211, 4);
+}
+
+.Dead{
+    color: red;
+}
+
+.titlesH3{
+    color: rgb(95, 95, 95);
+    padding-right: 5px;
+}

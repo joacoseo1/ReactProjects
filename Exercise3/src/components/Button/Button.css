@@ -1,0 +1,38 @@
+.btnContainerRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 47.5%;
+    right: 2.5%;
+}
+
+.Right{
+    background-color: transparent;
+    border: none;
+}
+
+.Right img{
+    width: 45px;
+    height: 45px;
+}
+
+.btnContainerLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 47.5%;
+    left: 2.5%;
+}
+
+.Left{
+    background-color: transparent;
+    border: none;
+    transform: rotate(180deg);
+}
+
+.Left img{
+    width: 45px;
+    height: 45px;
+}
